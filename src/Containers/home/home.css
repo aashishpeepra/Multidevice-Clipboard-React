@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.Home{
+    background-color:#4CAF50;
+    height:100vh;
+    width:100vw;
+}
+.homeHeader{
+    color:#fff;
+    padding:20px 10px;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+    background-color: #3d8b40;
+}
+
+footer{
+    bottom:0;
+    width:70%;
+    margin:auto;
+    margin-top:40px;
+    font-size:90%;
+    color:#fff;
+}
+footer a{
+    color:#fff;
+}
+button:focus{
+    outline: none;
+}

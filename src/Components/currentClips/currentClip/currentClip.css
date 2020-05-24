@@ -1,0 +1,28 @@
+.currentClip{
+    background-color:#3d8b40;
+    padding:10px 5px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    color:#fff;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 145%;
+    width:90vw;
+    margin:12px auto;
+}
+.currentClip:hover{
+    margin:12px auto;
+    box-shadow: 5px 10px 8px #235025;
+}
+.xxr{
+    display:inline-block;
+    color:#000;
+    float:right;
+    font-size:120%;
+    margin-right:5px;
+}
+.xxr:hover{
+    color:#fff;
+    padding:3px 5px;
+    background-color: #235025;
+}
