@@ -10,7 +10,7 @@ class Home extends Component{
         data:[]
     }
     componentDidMount(){
-        axios.get('https://apconnector.firebaseio.com/.json').then(data=>{
+        axios.get('').then(data=>{
         let copy={...data.data};
         let copy2=Object.keys(copy);
         let final=copy2.map(each=>{
@@ -22,7 +22,7 @@ class Home extends Component{
     }
     deleteHandler=(vals)=>{
         console.log(vals);
-        axios.delete(`https://apconnector.firebaseio.com/${vals}.json`).then(()=>{
+        axios.delete(``).then(()=>{
             setTimeout(()=> window.location.reload(),1000);
         }).catch(err=>alert(err));
         
@@ -32,7 +32,7 @@ class Home extends Component{
     }
     postClip=()=>{
         const obj={item:this.state.clip};
-        axios.post('https://apconnector.firebaseio.com/.json',obj).then(response=>{
+        axios.post('',obj).then(response=>{
             window.location.reload();
 
             console.log(response);
