@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Multi-device Clipboard
+
+Got a very long link on laptop and want to open it on your mobile. We got you covered. Paste it and upload it. It will be saved in the database. Now you can open the website on your mobile phone and copy it there. When done you can remove it from database with one click.
+<hr>
+# Website
+
+<a href="https://apconnector.firebaseapp.com/"> Website is here </a>
+
+# Stack
+
+<ul>
+  <li> React </li>
+  <li> Firebase Realtime Database </li>
+  <li> API </li>
+</ul>
+<hr>
+
+# Hosting
+Firebase
 
 ## Available Scripts
 
